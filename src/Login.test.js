@@ -44,5 +44,5 @@ test("div elemrnt have test Leanne Graham", async () => {
   fireEvent.change(inputPassword, { target: { value: testValue } });
   expect(buttonElement).not.toBeDisabled();
   const divElement = await screen.findByRole("contentinfo");
-  expect(!divElement).toHaveTextContent("Leanne Graham");
+  expect(divElement).toHaveTextContent("Leanne Graham");
 });
