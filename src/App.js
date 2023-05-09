@@ -1,9 +1,9 @@
-import Login from "./Login";
+import { CounterRedux } from "./CounterRedux";
 
 function App() {
   return (
     <div>
-      <Login></Login>
+      <CounterRedux></CounterRedux>
     </div>
   );
 }
